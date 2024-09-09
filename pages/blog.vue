@@ -3,7 +3,7 @@
     <h1>Mon Blog</h1>
     <ul>
       <li v-for="post in posts" :key="post.slug">
-        <nuxt-link :to="'/blog/' + post.slug">{{ post.title }}</nuxt-link>
+        <nuxt-link :to="'/posts/' + post.slug">{{ post.title }}</nuxt-link>
       </li>
     </ul>
   </div>
