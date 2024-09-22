@@ -1,68 +1,88 @@
-# mon-blog
+<div align="center">
+  <a href="https://bloggrify.com">
+    <img src="public/android-chrome-192x192.png"  width="80px" height="80px">
+  </a>
+  <h1 align="center">
+    Bloggrify
+  </h1>
 
-## Build Setup
+[Getting started](https://bloggrify.com/introduction/getting-started) | [Homepage](https://bloggrify.com)
+
+  <a href="https://github.com/bloggrify/bloggrify/releases/latest">
+    <img src="https://img.shields.io/github/release/bloggrify/bloggrify.svg?style=flat-square" alt="">
+  </a>
+
+  <a href="https://github.com/bloggrify/bloggrify/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/bloggrify/bloggrify.svg?style=flat-square" alt="">
+  </a>
+
+</div>
+
+Bloggrify is built on top of 
+* Nuxt.js 
+* Tailwind CSS
+* Nuxt-Content 
+* and other cool stuff (Hyvor Talk, RssFeedPulse, etc...)
+
+It is a **static** blog generator that uses markdown files to generate blog posts.
+
+Discover all features on the [official website](https://bloggrify.com)
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/hlassiege)
+
+If you use this project and it saves you time. [How about supporting it?](https://www.buymeacoffee.com/hlassiege)
+
+## Contributing
+
+I created this blog application because I know how **tedious** it is to assemble all the bricks needed to have an SEO-efficient blog, with a clean, accessible design, responsive, with features already integrated (comment system, rss feed, newsletter, sitemap etc...).
+
+All this work, which can take days to do, I'll spare you - **and it's free**.
+
+However, **if you consider that you've really saved time**, **you might consider supporting this work**.
+It's optional, but it will be much appreciated.
+
+The first option is to offer me a [virtual coffee](https://www.buymeacoffee.com/hlassiege) representing the value of the time you've saved.
+
+But you can also contribute in many other ways:
+
+- by **talking** about this project on social networks, on your blog, with your colleagues. 
+- by giving this project **a star** on github
+- by contributing to the open source project to improve it (see below)
+
+**10% of the benefits will be donated to the [Unicef foundation](https://www.unicef.org/), an organization that helps children in need all over the world.**
+
+## Contributing to the project
+
+Make sure to install the dependencies:
 
 ```bash
-# install dependencies
-$ npm install
-
-# serve with hot reload at localhost:3000
-$ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm run start
-
-# generate static project
-$ npm run generate
+# npm
+npm install
 ```
 
-For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
+### Development Server
 
-## Special Directories
+Start the development server on http://localhost:3000
 
-You can create the following extra directories, some of which have special behaviors. Only `pages` is required; you can delete them if you don't want to use their functionality.
+Running bloggrify alone without templates won't be really useful.   
 
-### `assets`
 
-The assets directory contains your uncompiled assets such as Stylus or Sass files, images, or fonts.
+```bash
+npm run dev
+```
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/assets).
+### Production
 
-### `components`
+Build the application for production:
 
-The components directory contains your Vue.js components. Components make up the different parts of your page and can be reused and imported into your pages, layouts and even other components.
+```bash
+npm run generate
+```
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/components).
+Locally preview production build:
 
-### `layouts`
+```bash
+npm run preview
+```
 
-Layouts are a great help when you want to change the look and feel of your Nuxt app, whether you want to include a sidebar or have distinct layouts for mobile and desktop.
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/layouts).
-
-### `pages`
-
-This directory contains your application views and routes. Nuxt will read all the `*.vue` files inside this directory and setup Vue Router automatically.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/get-started/routing).
-
-### `plugins`
-
-The plugins directory contains JavaScript plugins that you want to run before instantiating the root Vue.js Application. This is the place to add Vue plugins and to inject functions or constants. Every time you need to use `Vue.use()`, you should create a file in `plugins/` and add its path to plugins in `nuxt.config.js`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/plugins).
-
-### `static`
-
-This directory contains your static files. Each file inside this directory is mapped to `/`.
-
-Example: `/static/robots.txt` is mapped as `/robots.txt`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/static).
-
-### `store`
-
-This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
