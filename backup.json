@@ -1,0 +1,41 @@
+{
+    "tablets": [
+      {
+        "id": "doc1",
+        "data": {
+          "name": "iPad",
+          "description": "Tablette Apple",
+          "price": 999,
+          "link": "https://apple.com/ipad",
+          "brand": "Apple",
+          "model": "iPad",
+          "storage": "256 Go",
+          "screenSize": "11 Pouces",
+          "os": "iPadOS",
+          "modelYear": "2025",
+          "gpu": "Apple GPU",
+          "hardwareInterface": "USB Type-C",
+          "wirelessTech": "Bluetooth, Wi-Fi"
+        }
+      },
+      {
+        "id": "doc2",
+        "data": {
+          "name": "Galaxy Tab",
+          "description": "Tablette Samsung",
+          "price": 799,
+          "link": "https://samsung.com/galaxy-tab",
+          "brand": "Samsung",
+          "model": "Galaxy Tab",
+          "storage": "128 Go",
+          "screenSize": "10 Pouces",
+          "os": "Android",
+          "modelYear": "2024",
+          "gpu": "Mali-G78",
+          "hardwareInterface": "USB 3.0",
+          "wirelessTech": "Bluetooth, Wi-Fi"
+        }
+      }
+    ]
+  }
+  
