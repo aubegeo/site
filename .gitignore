@@ -91,3 +91,29 @@ sw.*
 
 .output
 .data
+
+# ...existing code...
+
+# Large media and binary files
+*.mp4
+*.mov
+*.wav
+*.zip
+*.rar
+*.7z
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.ico
+
+# Build and cache
+.cache/
+.nuxt/
+node_modules/
+dist/
+build/
+
+# Environment and local files
+.env*
+.local
